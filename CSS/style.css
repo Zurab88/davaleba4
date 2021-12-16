@@ -29,9 +29,11 @@ li {
 	margin-top: 15px;
 	margin-bottom: 26px;
 	float: left;
+	object-fit: fill;
 }
 .article {
 	margin-left: 30px;
+	/*margin-right: 98px;*/
 }
 .headnumber {
 	background-color:#3D58A6 ;
@@ -70,7 +72,8 @@ li {
 	margin-top: 20px;
 	margin-bottom: 25px;
 	margin-left: 310px;
-	line-height: 27px;
+	line-height: 20px;
+	width: 930px;
 }
 .footimg {
 	margin-top: 30px;
@@ -82,29 +85,85 @@ li {
 	border-right: 3px solid #3D58A6;
 	padding-right: 34px;
 }
+.section {
+	margin-left: 98px;
+}
+.BanerImage {
+	margin-top: 35px;
+	/*margin-left: 98px;*/
+	width: 1170px;
+	height: 460px;
+}
+.top-left-text {
+	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+	line-height: 35px;
+	position: absolute;
+	left: 136px;
+	top: 157px;
+	padding-left: 29px;
+	margin-top: 30px;
+ 	font-size: 30px;
+	width: 401px;
+	color: #E6E6E6;
+}
+.headbelow {
+	font-size: 24px;
+	text-align: left;
+	margin-top: 118px;
+	margin-bottom: 30px;
+}
+/*.section h4::first-line {
+	text-transform: uppercase;
+}
+.head4::after {
+	content: '';
+	background-color: black;
+	width: 2px;
+	height: 18px;
+	display: inline-block;
+	margin-right: 5px;
+	margin-left: 10px;
+	border-top: 5px;
+}*/
+.artcbelow {
+	background-color: #F2F2F2;
+	display: inline-block;
+	width: 570px;
+	height: 225px;
+	margin-top: 25px;
+	margin-right: 10px;
+	margin-bottom: 70px;
+}
+.artcbelow h2 {
+	font-size: 22px;
+	color: #3D58A6;
+	margin-left: 20px;
+	margin-top: 11px;
+}
+.artcbelow img {
+	height: 120px;
+	width: 100px;
+	object-fit: contain;
+	float: left;
+	margin-top: 25px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+}
+.artcbelow p {
+	font-size: 17px;
+	line-height: 27px;
+	width: 353px;
+	height: 157px;
+	display: inline-block;
+	letter-spacing: 0.5px;
+	margin-top: 30px;
+	margin-left: 25px;
+}
 /*.head {
 	margin-top: 87px;
 	margin-bottom: 109px;
 	height: 17px;
-}
-.midlimg {
-	margin-top: 15px;
-	margin-left: 30px;
-	width: 90%;
-}
-.container {
-	position: relative;
-	margin-bottom: 30px;
-}
-.top-left-text {
-	line-height: 45px;
-	position: absolute;
-	left: 30px;
-	top: 53px;
-	padding-left: 29px;
- 	font-size: 30px;
-	width: 401px;
-	color: #E6E6E6;
 }
 .address {
 	color: black;
